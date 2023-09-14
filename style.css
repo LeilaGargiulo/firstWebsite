@@ -4,6 +4,16 @@ body {
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.html {
+body {
     background-color: #AF916D;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pinnocio {
+    border: 10px solid beige;
+    padding: 5px;
+    margin: 5px;
 }
