@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <a href="Index.html"><li>Home</li></a>
-        <a href="bio.html"><li>About</li></a>
-        <a href="hobbies.html"><li>Hobbies</li></a>
-        <a href="portfolio.html"><li>Portfolio</li></a>
-    </ul>
+    <div class="menu">
+        <div class="home"><a href="Index.html"><li>Home</li></a></div>
+        <div class="bio"><a href="bio.html"><li>About</li></a></div>
+        <div class="hobbies"><a href="hobbies.html"><li>Hobbies</li></a></div>
+        <div class="portfolio"><a href="portfolio.html"><li>Portfolio</li></a></div>
+    </div>
 </body>
 </html>
 <H1>My Hobbies</H1>
@@ -25,3 +25,26 @@
 <p> Question: The director of a prison offers 100 death row prisoners, who are numbered from 1 to 100, a last chance. A room contains a cupboard with 100 drawers. The director randomly puts one prisoner's number in each closed drawer. The prisoners enter the room, one after another. Each prisoner may open and look into 50 drawers in any order. The drawers are closed again afterwards. If, during this search, every prisoner finds their number in one of the drawers, all prisoners are pardoned. If even one prisoner does not find their number, all prisoners die. Before the first prisoner enters the room, the prisoners may discuss strategy — but may not communicate once the first prisoner enters to look in the drawers. What is the prisoners' best strategy?
 </p>
 <p>I'll give you time to think through it.</p>
+<div class="images">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8BXn4uHlUn7lWM6G6QMnwa3JfLdPJb3W2E_O45EC2N946YsIpv_myvuBSb1DpmKyS5M:https://images.interestingengineering.com/1200x675/filters:format(webp)/img/iev/y5wWX5MoOX/riddle-2.jpg&usqp=CAU">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAkG5DryQn1KfFN5NPAGJUKZ5mI7ZM6RwBA:datagenetics.com/blog/december42014/h.png&usqp=CAU" alt="">
+</div>
+<p>Solution;</p>
+<p>To describe the strategy, not only the prisoners, but also the drawers, are numbered from 1 to 100; for example, row by row starting with the top left drawer. The strategy is now as follows:[3]
+</p>
+   <p>Each prisoner first opens the drawer labeled with their own number.</p>
+   <p></p> 
+    <p>If this drawer contains their number, they are done and were successful.</p> 
+    <p></p>
+    <p>Otherwise, the drawer contains the number of another prisoner, and they next open the drawer labeled with this number.</p> 
+    <p></p>
+    <p>The prisoner repeats steps 2 and 3 until they find their own number, or fail because the number is not found in the first fifty opened drawers.</p> 
+    <p></p>
+    <p>If the prisoner could continue indefinitely this way, they would inevitably loop back to the drawer they started with, forming a permutation cycle (see below). By starting with their own number, the prisoner guarantees they are on the specific cycle of drawers containing their number. The only question is whether any cycle is longer than fifty drawers - and only one cycle can possibly be too long, since at most one can comprise more than half of the total drawers.</p>
+<p></p>
+<p>The prison director's assignment of prisoner numbers to drawers can mathematically be described as a permutation of the numbers 1 to 100. Such a permutation is a one-to-one mapping of the set of natural numbers from 1 to 100 to itself. A sequence of numbers which after repeated application of the permutation returns to the first number is called a cycle of the permutation. Every permutation can be decomposed into disjoint cycles, that is, cycles which have no common elements.</p>
+<p>For example;</p>
+<div class="sequence">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Permutation_cycles_qtl1.svg/110px-Permutation_cycles_qtl1.svg.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Permutation_cycles_qtl2.svg/110px-Permutation_cycles_qtl2.svg.png">
+</div>

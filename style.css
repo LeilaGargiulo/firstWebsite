@@ -9,16 +9,16 @@ body {
 }
 
 body {
-    border: 5px solid beige;
     padding: 5px;
     margin: 5px;
     border-radius: 5%;
 }
-.pinoccio {
-    border: 5px solid beige;
+img {
     padding: 5px;
     margin: 5px;
     border-radius: 10%;
+    display: flex;
+    background-color: aquamarine;
 }
 
 .Menu1 {
@@ -31,9 +31,16 @@ body {
     padding-right: 5px;
     padding-left: 5px;
 }
-.home, .bio, .hobbies{
+.home, .bio, .hobbies, .portfolio{
     border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 10%;
     display: flex;
     background-color: blanchedalmond;
+}
+.images {
+    display: flex;
+    justify-content: center;
+}
+.sequence {
+    display: flex;
 }
