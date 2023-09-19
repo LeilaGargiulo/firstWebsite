@@ -44,3 +44,6 @@ img {
 .sequence {
     display: flex;
 }
+hr {
+    border: 2px solid white;
+}
