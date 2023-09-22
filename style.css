@@ -47,3 +47,8 @@ img {
 hr {
     border: 2px solid white;
 }
+.code, .cat {
+    width: 500px;
+    justify-content: center;
+    display: flex;
+}
